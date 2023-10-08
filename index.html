@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <!--font awesome cdn-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+ <!--Materialize CSS--->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ <!--Custom CSS-->
+    <link rel="stylesheet" href="BS.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <head>
+
+      
+    <title>BOOK STORE</title>
+          <!--Swiper-->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+<div id="preloader"></div>
+
+  <header class="header">
+    <div class="header-1">
+      <a href="#" class="logo"><i class="fas fa-book">Book Lovers</i></a>
+      
+<form action="" class="search-form">
+  <input type="search" name="" placeholder="search here..." id="search-box">
+  <label for="search-box" class="fas fa-search"></label>
+</form>
+
+<div class="icons">
+  <div id="search-btn" class="fas fa-search"></div>
+<a href="#" class="fas fa-cart-plus medium"></a>
+<a href="#" class="fas fa-book-medical medium"></a>
+<div id="login-btn" class="fas fa-user-tie medium"></div>
+</div>
+    </div>
+
+<div class="header-2">
+  <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#featured">featured</a>
+    <a href="#arrivals">arrival</a>
+    <a href="#reviews">reviews</a>
+    <a href="#blogs">blogs</a>
+  </nav>
+</div>
+  </header>
+  
+  
+  <nav class="bottom-navbar">
+    <a href="#home" class="fas fa-house-chimney"></a>
+    <a href="#featured"class="fas fa-rectangle-list"></a>
+    <a href="#arrivals"class="fas fa-tags"></a>
+    <a href="#reviews"class="fas fa-comment-dots"></a>
+    <a href="#blogs"class="fas fa-blog"></a>
+  </nav>
+ 
+ <div class="login-form-container">
+   <div id="close-login-btn" class="fas fa-xmark"></div>
+   
+   
+   
+   <form action="">
+     <h3>Sign In</h3>
+     <span>username</span>
+     <input type="email" name="" class="box" placeholder="Enter your email" id="">
+     <span>Password</span>
+     <input type="password" name="" class="box" placeholder="Password" id="">
+     <form action="#">
+      <p>
+        <label>
+          <input type="checkbox" />
+          <span style="color: white; font-size: medium;">Remember Me</span>
+     <input type="submit" value="sign in" class="btn">
+  <p>Forget Password ?<a href="#">click here</a></p>
+<p>Don't have an account ?<a href="#">Create one</a></p>
+   </form>
+ </div>
+ 
+ <section class="home" id="home">
+   <div class="row">
+     <div class="content">
+      <div class="loader">
+       <h3>SALES 25% OFF</h3>
+      </div>
+
+       <p>BOOK DAY offers different books that you love ... Grab Yours NOW !!!</p>
+    <a href="#" class="btn">shop now</a>
+     </div>
+  <div class="swiper books-slider">
+  <div class="swiper-wrapper">
+  <a href="#"class="swiper-slide"><img src="f1.png" alt=""></a>
+  <a href="#"class="swiper-slide"><img src="j1.png" alt=""></a>
+  <a href="#"class="swiper-slide"><img src="f3.png" alt=""></a>
+  <a href="#"class="swiper-slide"><img src="f4.png" alt=""></a>
+  <a href="#"class="swiper-slide"><img src="f5.png" alt=""></a>
+  <a href="#"class="swiper-slide"><img src="f6.png" alt=""></a>
+   </div>
+  
+   <img src="stand.png" class="stand" alt="">
+</div>
+</div>
+ </section>
+ 
+ 
+ <section class="icons-container">
+ <div class="icons">
+   <i class="fas fa-truck-fast"></i>
+   <div class="content">
+     <h3>Free Shipping</h3>
+     <p>Minimum order ₱500</p>
+   </div>
+ </div>
+ 
+      <div class="icons">
+   <i class="fas fa-user-lock"></i>
+   <div class="content">
+     <h3>Secured Payment</h3>
+     <p>100% Guarantee Refund/for damage and wrong item deliver.</p>
+   </div>
+   </div>
+   
+      <div class="icons">
+   <i class="fas fa-redo-alt"></i>
+   <div class="content">
+     <h3>Easy to Return</h3>
+     <p>3-5 days refund process</p>
+   </div>
+   </div>
+      <div class="icons">
+   <i class="fas fa-circle-info"></i>
+   <div class="content">
+     <h3>24/7 Customer Support</h3>
+     <p>Offers assistance and concerns anytime</p>
+   </div>
+   </div>
+ </section>
+
+<section class="featured" id="featured"><h1 class="heading"> <span>Featured Books</span></h1>
+
+<div class="swiper featured-slider">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide box">
+       <div class="icons">
+    <a href="#" class="fas fa-search"></a>
+      <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+       </div>
+       
+<div class="image">
+    <img src="b10.png" alt="" >
+      </div>
+      
+<div class="content">
+    <h3>Death Is My BFF</h3>
+    <div class="price">₱875&nbsp;<span>₱1,045</span></div>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+      </div>
+      
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="#" class="fas fa-search"></a>
+     <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+    </div>
+  <div class="image">
+      <img src="b1.png" alt="">
+      </div>
+      
+      <div class="content">
+        <h3>Belle Morte</h3>
+    <div class="price">₱987&nbsp;<span>₱1,276</span></div>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+    </div>
+    
+  <div class="swiper-slide box">
+    <div class="icons">
+      <a href="#" class="fas fa-search"></a>
+      <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+  </div>
+      <div class="image">
+        <img src="b2.png" alt="">
+      </div>
+  <div class="content">
+    <h3>Float</h3>
+    <div class="price">₱550&nbsp;<span>₱875</span></div>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+  </div>
+  
+  <div class="swiper-slide box">
+    <div class="icons">
+      <a href="#" class="fas fa-search"></a>
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-eye"></a>
+    </div>
+      <div class="image">
+        <img src="b3.png" alt="">
+      </div>
+      
+  <div class="content">
+      <h3>Trapeze</h3>
+  <div class="price">₱817&nbsp;<span>₱1,099</span></div>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+    </div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="#" class="fas fa-search"></a>
+      <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        </div>
+  <div class="image">
+    <img src="b4.png" alt="">
+    </div>
+  <div class="content">
+    <h3>She's With Me</h3>
+  <div class="price">₱645&nbsp;<span>₱927</span></div>
+    <a href="#" class="btn">add to cart</a>
+  </div>
+  </div>
+  
+  <div class="swiper-slide box">
+    <div class="icons">
+    <a href="#" class="fas fa-search"></a>
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+    </div>
+    
+  <div class="image">
+      <img src="b5.png" alt="">
+    </div>
+  <div class="content">
+    <h3>The Given</h3>
+  <div class="price">₱923&nbsp;<span>₱1,208</span></div>
+  <a href="#" class="btn">add to cart</a>
+    </div>
+      </div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="#" class="fas fa-search"></a>
+      <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        </div>
+<div class="image">
+  <img src="b6.png" alt="">
+      </div>
+  <div class="content">
+    <h3>BB & T</h3>
+    <div class="price">₱498&nbsp;<span>₱728</span></div>
+    <a href="#" class="btn">add to cart</a>
+      </div>
+      </div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="#" class="fas fa-search"></a>
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+        </div>
+<div class="image">
+      <img src="b7.png" alt="">
+     </div>
+<div class="content">
+  <h3>Swallow</h3>
+  <div class="price">₱927&nbsp;<span>₱1,211</span></div>
+    <a href="#" class="btn">add to cart</a>
+</div>
+</div>
+  <div class="swiper-slide box">
+    <div class="icons">
+      <a href="#" class="fas fa-search"></a>
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-eye"></a>
+        </div>
+  <div class="image">
+    <img src="b8.png" alt="">
+      </div>
+<div class="content">
+    <h3>The Tower of GOD</h3>
+<div class="price">₱716&nbsp;<span>₱1,110</span></div>
+<a href="#" class="btn">add to cart</a>
+      </div>
+      </div>
+<div class="swiper-slide box">
+   <div class="icons">
+    <a href="#" class="fas fa-search"></a>
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+        </div>
+  <div class="image">
+        <img src="b9.png" alt="">
+      </div>
+<div class="content">
+  <h3>The God of HighSchool</h3>
+  <div class="price">₱684&nbsp;<span>₱1,054</span></div>
+    <a href="#" class="btn">add to cart</a>
+</div>
+  </div> 
+    </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+  </div>
+</section>
+ 
+ <section class="newsletter">
+   <form action="">
+     <h3>Subscribe for latest updates</h3>
+     <input type="email" name="" placeholder="Enter your email" id="" class="box">
+     <input type="submit" value="subscribe" class="btn">
+   </form>
+ </section>
+ 
+ <section class="arrivals" id="arrivals">
+   <h1 class="heading"><span>New Arrivals</span></h1>
+   <div class="swiper arrivals-slider">
+     <div class="swiper-wrapper">
+       <a href="#" class="swiper-slide box">
+         <div class="image">
+           <img src="b11.png" alt="">
+         </div>
+         <div class="content">
+           <h3>The Famoux</h3>
+           <div class="price">₱736&nbsp;<span>₱1,653</span></div>
+           <div class="stars">
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>  
+           </div>
+         </div>
+       </a>
+         <a href="#" class="swiper-slide box">
+         <div class="image">
+           <img src="b12.png" alt="">
+         </div>
+         <div class="content">
+           <h3>The Summer I Drowned</h3>
+           <div class="price">₱872&nbsp;<span>₱1,198</span></div>
+           <div class="stars">
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+           </div>
+         </div>
+       </a>
+             <a href="#" class="swiper-slide box">
+         <div class="image">
+           <img src="b13.png" alt="">
+         </div>
+         <div class="content">
+           <h3>Revenge of the Sluts</h3>
+           <div class="price">₱918&nbsp;<span>₱1,762</span></div>
+           <div class="stars">
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>  
+           </div>
+         </div>
+       </a>
+             <a href="#" class="swiper-slide box">
+         <div class="image">
+           <img src="b14.png" alt="">
+         </div>
+         <div class="content">
+           <h3>Blackout</h3>
+           <div class="price">₱465&nbsp;<span>₱987</span></div>
+           <div class="stars">
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+           </div>
+         </div>
+       </a>
+              <a href="#" class="swiper-slide box">
+         <div class="image">
+           <img src="b15.png" alt="">
+         </div>
+         <div class="content">
+           <h3>The Last SHE</h3>
+           <div class="price">₱672&nbsp;<span>₱920</span></div>
+           <div class="stars">
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+           </div>
+         </div>
+       </a>
+    </div>
+    </div>
+       <div class="swiper arrivals-slider">
+     <div class="swiper-wrapper">
+              <a href="#" class="swiper-slide box">
+         <div class="image">
+           <img src="b16.png" alt="">
+         </div>
+         <div class="content">
+           <h3>REVELATIONS</h3>
+           <div class="price">₱794&nbsp;<span>₱1,211</span></div>
+           <div class="stars">
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>  
+           </div>
+         </div>
+       </a>
+             <a href="#" class="swiper-slide box">
+         <div class="image">
+           <img src="b1.png" alt="">
+         </div>
+         <div class="content">
+           <h3>Belle Morte</h3>
+           <div class="price">₱987&nbsp;<span>₱1,276</span></div>
+           <div class="stars">
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+           </div>
+         </div>
+       </a>
+         <a href="#" class="swiper-slide box">
+         <div class="image">
+           <img src="b2.png" alt="">
+         </div>
+         <div class="content">
+           <h3>Float</h3>
+           <div class="price">₱550&nbsp;<span>₱875</span></div>
+           <div class="stars">
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>  
+           </div>
+         </div>
+       </a>
+             <a href="#" class="swiper-slide box">
+         <div class="image">
+           <img src="b3.png" alt="">
+         </div>
+         <div class="content">
+           <h3>Trapeze</h3>
+           <div class="price">₱817&nbsp;<span>₱1,000</span></div>
+           <div class="stars">
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+           </div>
+         </div>
+       </a>
+             <a href="#" class="swiper-slide box">
+         <div class="image">
+           <img src="b4.png" alt="">
+         </div>
+         <div class="content">
+           <h3>She's With Me</h3>
+           <div class="price">₱645&nbsp;<span>₱927</span></div>
+           <div class="stars">
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>  
+           </div>
+         </div>
+       </a>
+     </div>
+   </div>
+ </section>
+ 
+ 
+ <section class="deal">
+   <div class="content">
+     <h3>Flash Deals</h3>
+     <p>Buy some books for low as ₱500 & up to 75% big discount in 2-3 books purchase.</p>
+     <a href="#" class="btn">Buy Now</a>
+   </div>
+   <div class="image">
+     <img src="deal.png" alt="">
+   </div>
+ </section>
+ 
+ <section class="reviews" id="reviews">
+   <h1 class="heading">Customer's Reviews</h1>
+   <div class="swiper reviews-slider">
+     <div class="swiper-wrapper">
+       <div class="swiper-slide box">
+         <img src="m6.jpg" alt="">
+         <h3>Vince Charl Catanda</h3>
+         <p>This shop is unique, and this shop is recommendable to all book lovers.</p>
+         <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+         </div>
+       </div>
+             <div class="swiper-slide box">
+         <img src="m4.jpg" alt="">
+         <h3>Onel</h3>
+         <p>5 Star feedback for me. Excellent service and nothing to say.</p>
+         <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+         </div>
+       </div>
+             <div class="swiper-slide box">
+         <img src="m5.jpg" alt="">
+         <h3>Warner Reyn Llanera</h3>
+         <p>Super-fast deliver and i didn't expect the story outline of the book is so awesome!!!.</p>
+         <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+         </div>
+       </div>
+             <div class="swiper-slide box">
+         <img src="m1.jpg" alt="">
+         <h3>Rocelyn Vega</h3>
+         <p>Incredible!! Good story and in terms of packaging so secure and 100% shop is unique</p>
+         <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+         </div>
+       </div>
+             <div class="swiper-slide box">
+         <img src="m2.jpg" alt="">
+         <h3>Luijoe Lopez</h3>
+         <p>First time buyer in this online shop and i expect i didn't expect in this shop is 100% chat response regarding my concerns.</p>
+         <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+         </div>
+       </div>
+              <div class="swiper-slide box">
+         <img src="m3.jpg" alt="">
+         <h3>Lord Phergy Dela Cerna</h3>
+         <p>I love the books!!! that i bought in this shop. I might order a new one sometime.</p>
+         <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ 
+ <section class="blogs" id="blogs">
+   <h1 class="headings"><span style="color: black;">Our Blogs</span></h1>
+<div class="swiper blogs-slider">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide box">
+      <div class="image">
+        <img src="D1.jpg" alt="">
+      </div>
+    <div class="content">
+      <h3>Anime Manga</h3>
+      <p>Outside of Japan, the term "anime" refers specifically to Japanese animation. Anime comes in a wide variety of genres and encompasses both film and television animation. It can be aimed at children, teens, or adult audiences. "Manga," on the other hand, refers to Japanese comics and graphic novels.</p>
+      <a href="https://alsmangablog.wordpress.com/" class="btn">Read More</a>
+    </div>
+    </div>
+    <div class="swiper-slide box">
+      <div class="image">
+        <img src="D5.jpg" alt="">
+      </div>
+    <div class="content">
+      <h3>Mystery Novel Books</h3>
+      <p>The mystery genre is a genre of fiction that follows a crime (like a murder or a disappearance) from the moment it is committed to the moment it is solved. Mystery novels are often called “whodunnits” because they turn the reader into a detective trying to figure out the who, what, when, and how of a particular crime.</p>
+      <a href="https://reedsy.com/discovery/blog/best-mystery-books" class="btn">Read More</a>
+    </div>
+    </div>
+    <div class="swiper-slide box">
+      <div class="image">
+        <img src="D2.jpg" alt="">
+      </div>
+    <div class="content">
+      <h3>Best Selling books of all time</h3>
+      <p>This page provides lists of best-selling books and book series to date and in any language. "Best-selling" refers to the estimated number of copies sold of each book, rather than the number of books printed or currently owned.</p>
+      <a href="https://jamesclear.com/best-books/best-selling" class="btn">Read More</a>
+    </div>
+    </div>
+    <div class="swiper-slide box">
+      <div class="image">
+        <img src="D3.jpg" alt="">
+      </div>
+    <div class="content">
+      <h3>Fantasy Books</h3>
+      <p>With a panel of leading fantasy authors—N.K. Jemisin, Neil Gaiman, Sabaa Tahir, Tomi Adeyemi, Diana Gabaldon, George R.R. Martin, Cassandra Clare and Marlon James—TIME presents the most engaging, inventive and influential works of fantasy fiction, in chronological order beginning in the 9th century</p>
+      <a href="https://time.com/collection/100-best-fantasy-books/" class="btn">Read More</a>
+    </div>
+    </div>
+    <div class="swiper-slide box">
+      <div class="image">
+        <img src="D4.jpg" alt="">
+      </div>
+    <div class="content">
+      <h3>Book of Dead</h3>
+      <p>The Necronomicon, also referred to as the Book of the Dead, or under a purported original Arabic title of Kitab al-Azif, is a fictional grimoire (textbook of magic) appearing in stories by the horror writer H. P. Lovecraft and his followers.</p>
+      <a href="https://blogs.loc.gov/international-collections/2020/" class="btn">Read More</a>
+    </div>
+    </div>
+  </div>
+</div>
+ </section>
+ 
+ <section class="footer">
+   <div class="box-container">
+     <div class="box">
+       <h3>Coverage Location</h3>
+<a href="#"><i class="fas fa-map-marker-alt"></i>Cabuyao City, Laguna</a>
+<a href="#"><i class="fas fa-map-marker-alt"></i>Tagaytay City, Cavite</a> 
+<a href="#"><i class="fas fa-map-marker-alt"></i>Manila</a>
+<a href="#"><i class="fas fa-map-marker-alt"></i>Antipolo, Rizal</a>
+<a href="#"><i class="fas fa-map-marker-alt"></i>Quezon City</a>
+<a href="#"><i class="fas fa-map-marker-alt"></i>Calamba City, Laguna</a>
+     </div>
+<div class="box">
+<h3>Quick Links</h3>
+<a href="#"><i class="fas fa-arrow-right"></i>home</a>
+<a href="#"><i class="fas fa-arrow-right"></i>featured</a>
+<a href="#"><i class="fas fa-arrow-right"></i>arrivals</a>
+<a href="#"><i class="fas fa-arrow-right"></i>reviews</a>
+<a href="#"><i class="fas fa-arrow-right"></i>blogs</a>
+     </div>
+<div class="box">
+<h3>Extra Links</h3>
+<a href="#"><i class="fas fa-arrow-right"></i>account info</a>
+<a href="#"><i class="fas fa-arrow-right"></i>ordered items</a>
+<a href="#"><i class="fas fa-arrow-right"></i>privacy policy</a>
+<a href="#"><i class="fas fa-arrow-right"></i>payment method</a>
+<a href="#"><i class="fas fa-arrow-right"></i>our services</a>
+     </div>
+  <div class="box">
+<h3>Contact Info</h3>
+<a href="#"><i class="fas fa-phone"></i>+63966-902-4580</a>
+<a href="#"><i class="fas fa-envelope"></i>emaglaque15@gmail.com</a>
+<img src="map.png" class="map" alt="">
+</div>
+     
+    
+              
+         
+
+</div>
+
+   
+  
+
+
+
+
+
+
+  <div class="share">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-github"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+
+
+
+
+
+  <div class="credit">Created by&nbsp;<span>Ervin Jr. Maglaque</span>&nbsp;|all rights reserved.®</div>
+ </section>
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ </body> 
+        <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+       <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <!--Swiper-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!--Custom JS-->
+    <script src="BS.js"></script>
+  
+
+   
+</html>
